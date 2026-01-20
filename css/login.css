@@ -1,0 +1,133 @@
+/* Estilos específicos para a página de login */
+
+.login-section {
+    padding: 80px 127px;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-toggle {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.toggle-btn {
+    padding: 15px 40px;
+    background: var(--branco);
+    border: 2px solid var(--verde-claro);
+    border-radius: 8px;
+    color: var(--verde-claro);
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.toggle-btn.active {
+    background: var(--verde-claro);
+    color: var(--branco);
+}
+
+.toggle-btn:hover:not(.active) {
+    background: rgba(106, 221, 189, 0.1);
+}
+
+.form-card {
+    background: var(--branco);
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: var(--preto);
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--preto);
+    font-size: 14px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: var(--verde-claro);
+    outline: none;
+}
+
+.form-control.is-invalid {
+    border-color: var(--vermelho);
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background: var(--verde-claro);
+    border: none;
+    border-radius: 8px;
+    color: var(--branco);
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background: var(--verde-escuro);
+}
+
+/* Responsividade para login */
+@media (max-width: 768px) {
+    .login-section {
+        padding: 40px 20px;
+    }
+    
+    .form-toggle {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .toggle-btn {
+        width: 100%;
+    }
+    
+    .form-card {
+        padding: 30px 20px;
+    }
+}

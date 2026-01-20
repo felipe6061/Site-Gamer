@@ -3,17 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GameStore - Sua Loja Gamer</title>
-    <!-- Bootstrap CSS -->
+    <title>TotalGame - Sua Loja Gamer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-    <!-- CSS Personalizado -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
-        <!-- Header -->
         <header class="header">
             <div class="logo-header">
                 <img src="img/logo.png" alt="GameStore Logo">
@@ -27,7 +23,6 @@
             </nav>
         </header>
 
-        <!-- Banner Principal -->
         <section class="hero-banner">
             <img src="img/high-angle-hands-holding-controller.jpg" class="hero-image" alt="Controle Gamer">
             <div class="hero-text-container">
@@ -42,7 +37,6 @@
             <div class="cta-button">COMPRAR</div>
         </section>
 
-        <!-- Top Categorias -->
         <section class="section">
             <h2 class="section-title">TOP CATEGORIAS</h2>
             <div class="categorias-grid">
@@ -65,7 +59,6 @@
             </div>
         </section>
 
-        <!-- Tech Novidades -->
         <section class="tech-section">
             <div class="tech-container">
                 <h2 class="tech-title">TECH NOVIDADES</h2>
@@ -79,7 +72,6 @@
             </div>
         </section>
 
-        <!-- Quem Somos -->
         <section class="about-section">
             <h2 class="section-title">QUEM SOMOS</h2>
             <div class="about-content">
@@ -92,11 +84,9 @@
             </div>
         </section>
 
-        <!-- Galeria de Produtos -->
         <section class="gallery-section">
             <h2 class="section-title">GALERIA DE PRODUTOS</h2>
             
-            <!-- Primeira linha: 3 produtos -->
             <div class="produtos-linha">
                 <div class="produto-card">
                     <img src="img/laptop-device-with-minimalist-monochrome-background.jpg" class="produto-img" alt="Notebook Gamer">
@@ -129,7 +119,6 @@
                 </div>
             </div>
             
-            <!-- Segunda linha: 3 produtos -->
             <div class="produtos-linha">
                 <div class="produto-card">
                     <img src="img/parts-hard-disk-belonging-computer-hardware-exploded-one-by-one-arranged.jpg" class="produto-img" alt="Componentes de PC">
@@ -163,16 +152,13 @@
             </div>
         </section>
 
-        <!-- Footer -->
         <footer class="footer">
             <div class="footer-content">
-                <!-- Logo à esquerda -->
                 <div class="footer-logo">
                     <img src="img/logo.png" alt="GameStore Logo" class="footer-logo-img">
                     <p class="footer-copyright">Desenvolvido por [Seu Nome Completo] - 2024</p>
                 </div>
 
-                <!-- Links no meio -->
                 <div class="footer-links">
                     <h4 class="footer-title">Links Rápidos</h4>
                     <ul class="footer-menu">
@@ -184,7 +170,6 @@
                     </ul>
                 </div>
 
-                <!-- Redes sociais à direita -->
                 <div class="footer-social">
                     <h4 class="footer-title">Siga-nos</h4>
                     <div class="social-icons">
@@ -205,20 +190,16 @@
             </div>
         </footer>
 
-        <!-- Botão Voltar ao Topo -->
         <button onclick="topo()" id="btnTopo">↑</button>
     </div>
 
-    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        // Função para voltar ao topo
         function topo() {
             window.scrollTo({top: 0, behavior: 'smooth'});
         }
         
-        // Mostrar/esconder botão
         window.onscroll = function() {
             const btn = document.getElementById('btnTopo');
             btn.style.display = (window.scrollY > 100) ? 'block' : 'none';

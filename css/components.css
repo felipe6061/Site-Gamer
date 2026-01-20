@@ -1,0 +1,55 @@
+/* Componentes Reutilizáveis */
+
+/* Botão Comprar */
+.comprar-btn {
+    background: var(--verde-claro);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    color: var(--branco);
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Botão CTA */
+.cta-button {
+    position: absolute;
+    bottom: -28px;
+    right: 345px;
+    width: 199px;
+    height: 57px;
+    background-color: var(--verde-claro);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--branco);
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Botão Voltar ao Topo */
+#btnTopo {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background: var(--verde-escuro);
+    border: none;
+    border-radius: 50%;
+    color: var(--branco);
+    font-size: 24px;
+    display: none;
+    cursor: pointer;
+    z-index: 1000;
+    line-height: 50px;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+/* Banner Principal */
+.hero-banner {
+    background-color: var(--azul);
+    height: 667px;
+    padding: 70px 127px;
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    position: relative;
+}
+
+.hero-image {
+    width: 805px;
+    height: 506px;
+    object-fit: cover;
+    border-radius: 25px;
+    flex-shrink: 0;
+}
+
+.hero-text-container {
+    flex: 1;
+    color: var(--branco);
+}
+
+.hero-title {
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    font-size: 14px;
+    line-height: 20.3px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,13 @@
+/* Arquivo Principal - Importa todos os módulos */
+@import url('reset.css');
+@import url('header.css');
+@import url('hero.css');
+@import url('sections.css');
+@import url('categorias.css');
+@import url('tech.css');
+@import url('about.css');
+@import url('produtos.css');
+@import url('footer.css');
+@import url('components.css');
+
+/* Estilos adicionais específicos (se necessário) */

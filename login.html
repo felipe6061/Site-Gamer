@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - GameShop</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Navbar (igual à index) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">GameShop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <!-- Botões de Alternância -->
+                <div class="text-center mb-4">
+                    <button id="btnLogin" class="btn btn-primary mx-2">Login</button>
+                    <button id="btnCadastro" class="btn btn-outline-primary mx-2">Cadastro</button>
+                </div>
+
+                <!-- Formulário de Login -->
+                <div id="formLogin" class="card p-4">
+                    <h2 class="text-center mb-4">Login</h2>
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="loginEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginSenha" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="loginSenha" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Entrar</button>
+                    </form>
+                </div>
+
+                <!-- Formulário de Cadastro -->
+                <div id="formCadastro" class="card p-4" style="display: none;">
+                    <h2 class="text-center mb-4">Cadastro</h2>
+                    <form id="cadastroForm">
+                        <div class="mb-3">
+                            <label for="cadastroNome" class="form-label">Nome Completo</label>
+                            <input type="text" class="form-control" id="cadastroNome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="cadastroEmail" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="cadastroEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="cadastroSenha" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="cadastroSenha" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="confirmarSenha" class="form-label">Confirmar Senha</label>
+                            <input type="password" class="form-control" id="confirmarSenha" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Cadastrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>GameShop</h5>
+                    <p class="mb-0">A melhor loja gamer da região!</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">Desenvolvido por [Seu Nome Completo] - 2024</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- JavaScript Personalizado -->
+    <script src="js/script.js"></script>
+</body>
+</html>

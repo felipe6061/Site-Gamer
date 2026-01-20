@@ -1,0 +1,28 @@
+/* Top Categorias */
+.categorias-grid {
+    display: flex;
+    justify-content: center;
+    gap: 97px;
+    margin-top: 40px;
+}
+
+.categoria-card {
+    width: 287px;
+    text-align: center;
+}
+
+.categoria-img {
+    width: 285px;
+    height: 226px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.categoria-titulo {
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--preto);
+    font-size: 36px;
+    line-height: 52.2px;
+}

@@ -1,0 +1,14 @@
+/* Estilos Gerais das Seções */
+.section {
+    padding: 100px 127px;
+    text-align: center;
+}
+
+.section-title {
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: var(--preto);
+    font-size: 36px;
+    line-height: 52.2px;
+    margin-bottom: 40px;
+}

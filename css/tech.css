@@ -1,0 +1,55 @@
+/* Tech Novidades */
+.tech-section {
+    position: relative;
+    width: 1556px;
+    height: 983px;
+    margin: 0 auto 100px;
+    padding: 0;
+}
+
+.tech-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.tech-title {
+    position: absolute;
+    top: 192px;
+    left: 216px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: var(--preto);
+    font-size: 36px;
+    line-height: 52.2px;
+    z-index: 2;
+}
+
+.tech-content {
+    position: absolute;
+    top: 288px;
+    left: 0;
+    width: 759px;
+    height: 344px;
+    background-color: var(--rosa);
+    border-radius: 20px;
+    padding: 42px 40px;
+    z-index: 2;
+}
+
+.tech-text {
+    color: var(--preto);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.tech-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 697px;
+    height: 983px;
+    object-fit: cover;
+    border-radius: 20px;
+}

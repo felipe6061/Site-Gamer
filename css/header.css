@@ -1,0 +1,57 @@
+/* Container Principal */
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Header */
+.header {
+    background-color: var(--verde-claro);
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 127px;
+}
+
+.logo-header {
+    height: 70px;
+}
+
+.logo-header img {
+    height: 100%;
+    width: auto;
+}
+
+/* Navegação */
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.nav-link {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--branco);
+    font-size: 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.login-btn {
+    width: 115px;
+    height: 41px;
+    background-color: var(--vermelho);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--branco);
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 50px;
+}

@@ -1,0 +1,26 @@
+/* Reset e Variáveis */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --verde-claro: #6addbd;
+    --verde-escuro: #4ee6b3;
+    --vermelho: #b22a2a;
+    --azul: #1b95d2c2;
+    --rosa: #ff3e9e99;
+    --amarelo: #fbe27a;
+    --cinza: #d9d9d9;
+    --branco: #ffffff;
+    --preto: #000000;
+    --cinza-texto: #4e4e4c;
+}
+
+body {
+    font-family: "Inter", Helvetica, sans-serif;
+    background-color: var(--branco);
+    min-width: 1200px;
+    overflow-x: auto;
+}

@@ -1,0 +1,23 @@
+/* Quem Somos */
+.about-section {
+    padding: 100px 127px;
+    text-align: center;
+}
+
+.about-content {
+    width: 1483px;
+    height: 412px;
+    margin: 0 auto;
+    background-color: var(--amarelo);
+    border-radius: 20px;
+    padding: 41px 43px;
+    text-align: left;
+}
+
+.about-text {
+    color: var(--cinza-texto);
+    font-size: 24px;
+    line-height: 34.8px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
